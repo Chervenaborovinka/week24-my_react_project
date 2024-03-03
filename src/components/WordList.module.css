@@ -1,0 +1,22 @@
+@import "variables";
+
+.wordList {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    border: red;
+}
+
+.button {
+    background-color: var(--primary-color);
+    color: var(--font-color);
+    border: none;
+    padding: 8px 10px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--secondary-color);
+}
